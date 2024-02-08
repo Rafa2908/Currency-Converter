@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('./images/currency.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 450px;
+    margin-inline: auto;
+    margin-top: 250px;
+    
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.currency-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 25px 0;
+}
+
+.mb {
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.currency select {
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+    padding-left: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.currency-input input {
+    background-color: transparent;
+    height: 30px;
+    color: white;
+    outline: none;
+    padding-left: 10px;
+}
+
+.convert-btn {
+    display: block;
+    margin-inline: auto;
+    margin-top: 25px;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: rgb(199, 198, 202);
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.convert-btn:hover {
+    background-color: hsl(255, 4%, 85%);
+}
+
+.currency-display {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
